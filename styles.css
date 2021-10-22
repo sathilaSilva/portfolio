@@ -268,47 +268,108 @@ nav a {
 /**CARING COMMUNITY DESIGN**/
 #headingH1 h1 {
     margin-top: 200px;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
+
+#headingH1 p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
 
 #photoBig {
     position: absolute;
     width: 1140px;
-    
     left: 190px;
     top: 400px;  
 }
 
+
+
 #description {
     position: absolute;
-    background-image: url("img/Ellipse 3.svg"); 
-    background-repeat: no-repeat;
-    background-position: left bottom;   
-}
-
-#description {
-    position: relative;
     height: 496px;
-    top: 1600px;  
+    top: 1850px; 
+    left: 190px;
 }
 
-#description h3 {
-    font-weight: bold;
+#description h3 { 
     font-style: normal;
+    padding-bottom: 40px;
+    letter-spacing: 1.5px;
 }
 
 #description p {
     letter-spacing: 1.5px;
-    line-height: 28px;      
+    line-height: 28px; 
+    font-size: 16px; 
+    padding-right: 180px;
+    font-weight: normal;   
+}
+
+
+
+#userFlow {
+    position: relative;
+    top: 1900px;
+    left: 190px; 
+}
+
+#userFlow {
+    letter-spacing: 1.5px;
+}
+
+#userFlow img {
+    position: relative;
+    right: 120px;
+    padding-bottom: 60px;
+}
+
+#palette {
+    position: relative;
+    top: 1900px;
+}
+
+#palette h3 {
+    position: relative;
+    left: 190px;
+    padding-bottom: 65px;
+    letter-spacing: 1px;
+}
+
+#palette img {
+    position: relative;
+    left: 190px;
 }
 
 
 #allPages {
+    position: relative;
+    top: 2100px;
+}
+
+#allPages h3 {
+    position: relative;
+    left: 190px;
+    padding-bottom: 65px;
+    letter-spacing: 1px;
+}
+
+#allPages img {
+    position: relative;
+    left: 170px;
+    width: 1200px;
+}
+
+.rectangleBlue {
     position: absolute;
-    width: 1103px;
-    height: 595px;
-    left: 207px;
-    top: 2500px;
+    width: 1200px;
+    height: 778px;
+    top: 100px;
+    left: 175px;
+    border-radius: 20px;
+
+    background: linear-gradient(108.27deg, rgba(22, 40, 105, 0.198) 1.38%, rgba(184, 189, 207, 0.1298) 100%);
 }
 
 .socialCaring {
@@ -316,7 +377,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2400px;
+    margin-top: 2600px;
 }
 
 .socialCaring li {
@@ -340,7 +401,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1700px;
+    margin-top: 2000px;
 }
 
 .socialWildlife li {
@@ -354,6 +415,47 @@ nav a {
 }
 
 .socialWildlife li a:hover {
+    transform: translateY(-15px);
+}
+
+/**Photography portfolio**/
+
+#photography {
+    position: relative;
+    height: 496px;
+    top: 1000px; 
+     
+}
+
+#photography h3 { 
+    font-style: normal;
+}
+
+#photography p {
+    letter-spacing: 1.5px;
+    line-height: 28px; 
+    font-size: 16px;  
+}
+
+.socialphoto {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1000px;
+}
+
+.socialphoto li {
+    list-style: none;
+}
+
+.socialphoto li a{
+    display: inline-flex;
+    margin-right: 30px;
+    transition: 0.6s;
+}
+
+.socialphoto li a:hover {
     transform: translateY(-15px);
 }
 
@@ -501,8 +603,8 @@ form label {
     position: absolute;
     width: 380px;
     height: 430px;
-    left: 950px;
-    top: 400px;
+    left: 800px;
+    top: 50px;
 
     background: linear-gradient(151.74deg, rgba(255, 255, 255, 0.084) 1.75%, rgba(255, 255, 255, 0.252) 98.25%);
     box-shadow: 2px 4px 3px 5px rgba(0, 0, 0, 0.25);
