@@ -600,7 +600,7 @@ form label {
 
 
 #glass { 
-    position: absolute;
+    position: relative;
     width: 380px;
     height: 430px;
     left: 800px;
