@@ -80,6 +80,7 @@ nav a {
 }
 
 #body #btn2 {
+    visibility: hidden;
     position: absolute;
     left: 300px ;
     width: 213px;
