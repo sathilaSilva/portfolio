@@ -634,7 +634,7 @@ nav a {
 
 
 .socialContact {
-    position: absolute;
+    position: reltive;
     display: flex;
     justify-content: center;
     align-items: center;
