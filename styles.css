@@ -555,83 +555,83 @@ nav a {
 /**form**/
 
 #reachOut {
-    padding-bottom: 30px;
-}
-
-#reachOut p{
-    font-style: normal !important;
-    font-weight: lighter !important;
-}
-
-#forms {
-    line-height: 55px;
-}
-
-form label {
-    font-weight: lighter;
-}
-
-#form button {
     position: absolute;
-    background: linear-gradient(180deg, #5552ED 0%, #8D31C5 100%);
-    color: white;
-    border-style: none;
-    width: 170px;
-    left: 100px;
-    margin-top: 30px;
-    letter-spacing: 3px;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-size: 64px;
+    width: 528px;
+    height: 267px;
 }
 
-#form ul li {
+#glass {
+    position: absolute;
+    width: 398px;
+    height: 464px;
+    left: 880px;
+    top: 200px;
+    
+
+    /**background: linear-gradient( rgba(255, 255, 255, 0.1) 1%, rgba(255, 255, 255, 0) 90%);
+    /**border:  solid #FFFFFF;**/
+    box-shadow: inset 3px 3px 10px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+}
+
+
+
+#glass li {
     list-style: none;
-    margin-bottom: 100px;
-   
+    
 }
 
-#form ul li a {
-    color: #B63F3F;
+#glass li a {
+    color: #FFFFFF;
     font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;   
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.4s;
 }
+
+#glass li a:hover {
+    color: #B63F3F;
+}
+
+
+.elipse1 {
+    position: relative;
+    left: 800px;
+    top: 160px;
+
+}
+
+.elipse2 {
+    position: relative;
+    left: 1150px;
+    top: 240px;
+}
+
 
 #yahoo {
-    position: absolute;
-    bottom: 340px;
-    left: 60px;
+    position: relative;
+    top: 100px;
+    left: 45px;
 }
 
 #linkedin {
-    position: absolute;
-    left: 140px;
-    top: 100px;
+    position: relative;
+    left: 120px;
+    top: 190px;
 
 }
 
 #phone {
-    position: absolute;
-    left: 150px;
-    top: 250px;
-}
-
-
-
-#glass { 
-    position: absolute;
-    width: 380px;
-    height: 430px;
-    left: 800px;
-    top: 2px;
-
-    background: linear-gradient(151.74deg, rgba(255, 255, 255, 0.084) 1.75%, rgba(255, 255, 255, 0.252) 98.25%);
-    box-shadow: 2px 4px 3px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-#glass ul li a {
     position: relative;
-    top: 100px;   
+    left: 128px;
+    top: 280px;
 }
+
+
 
 .socialContact {
     position: relative;
